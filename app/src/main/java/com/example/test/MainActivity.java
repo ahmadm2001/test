@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseUser user;
     ValueEventListener usersListener;
 
+
     Boolean mVerificationInProgress = false;
     public static FirebaseAuth refAuth = FirebaseAuth.getInstance();
     private static final String TAG = "Phone";

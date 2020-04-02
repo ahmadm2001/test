@@ -12,6 +12,8 @@ public class Customer {
         this.uid=uid;
     }
 
+
+
     public String getName() {
         return name;
     }
