@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".register">
+    tools:context="com.example.test.register">
 
     <Space
         android:layout_width="0dp"
@@ -103,6 +103,7 @@
                 android:visibility="visible" />
 
 
+
         </LinearLayout>
 
         <Space
@@ -111,15 +112,6 @@
             android:layout_weight="0.5" />
 
 
-        <EditText
-            android:id="@+id/eTcode"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="code"
-            android:inputType="phone"
-            android:visibility="visible" />
 
 
         <EditText
@@ -152,12 +144,6 @@
             android:visibility="visible" />
 
 
-        <CheckBox
-            android:id="@+id/cBstayconnect"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="Stay Connected" />
 
         <Space
             android:layout_width="match_parent"
@@ -186,7 +172,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="5"
                 android:onClick="logorreg"
-                android:text="register" />
+                android:text="register"
+                tools:ignore="OnClick" />
 
             <Space
                 android:layout_width="0dp"

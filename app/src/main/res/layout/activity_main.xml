@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".MainActivity">
+    tools:context="com.example.test.MainActivity">
     <Space
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -147,10 +147,7 @@
                 android:onClick="logorreg"
                 android:text="Login" />
 
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
+
 
         </LinearLayout>
 
